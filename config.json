@@ -1,0 +1,21 @@
+{
+    "trading_config": {
+        "initial_capital": 10000,
+        "n_trades": 100000,
+        "win_rate": 0.4,
+        "risk_per_trade": 0.01,
+        "reward_per_trade": 0.02
+    },
+    "output_config": {
+        "log_directory": "trading_sim_logs",
+        "save_summary": true,
+        "save_trades": true,
+        "save_chart": true,
+        "chart_size": [12, 6]
+    },
+    "simulation_config": {
+        "random_seed": null,
+        "enable_progress_bar": true,
+        "decimal_places": 2
+    }
+} 
